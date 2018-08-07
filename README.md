@@ -1,4 +1,4 @@
-# Gulp 4 starter kit
+# Interior design template
 
 ### Compiles and hot-reloads
 
