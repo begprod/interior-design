@@ -2,7 +2,7 @@
 	<nav>
 		<ul>
 			<li>
-				<a class="{% if page == 'home' %} active {% endif %}" href="#">item1</a>
+				<a class="{% if page == "home" %} active {% endif %}" href="#">item1</a>
 			</li>
 			<li>
 				<a href="#">item2</a>

@@ -1,4 +1,11 @@
-<header>
-	<h1 class="test">Header</h1>
-	<i class="icon icon-arrow-right"></i>
+<header class="header">
+	<div class="wrapper header__inner">
+		<div class="header__logo">
+			<span class="icon icon-logo-white"></span>
+		</div>
+		<div class="header__menu-trigger">
+			<span class="icon icon-menu"></span>
+		</div>
+		<div class="header__phone">3</div>
+	</div>
 </header>

@@ -6,5 +6,22 @@ html
 *::before
 	box-sizing: inherit
 
+body
+	background-color: $beige
+
+img
+	max-width: 100%
+
+.wrapper
+	max-width: 1170px
+	margin: 0 auto
+	outline: 3px solid fuchsia
+	@media screen and (min-width: $mobile)
+		padding: 0 15px
+	@media screen and (min-width: $tablet)
+		padding: 0 35px
+	@media screen and (min-width: $desktop)
+		padding: 0
+
 .icon
 	display: inline-block

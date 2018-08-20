@@ -1,23 +1,20 @@
 @font-face {
     font-family: 'playfair_displayblack';
-    src: url('playfairdisplay-black-webfont.woff2') format('woff2'),
-         url('playfairdisplay-black-webfont.woff') format('woff');
+    src: url('playfairdisplay-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'playfair_displaybold';
-    src: url('playfairdisplay-bold-webfont.woff2') format('woff2'),
-         url('playfairdisplay-bold-webfont.woff') format('woff');
+    src: url('playfairdisplay-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'playfair_displayregular';
-    src: url('playfairdisplay-regular-webfont.woff2') format('woff2'),
-         url('playfairdisplay-regular-webfont.woff') format('woff');
+    src: url('playfairdisplay-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
