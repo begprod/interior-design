@@ -1,3 +1,5 @@
-import testModule from './modules/module';
+import ItemSlider from './modules/itemslider';
 
-testModule('Billy');
+const heroSlider = new ItemSlider('js-items-slider-item', '.js-items-slider-dots');
+
+console.log(heroSlider);
