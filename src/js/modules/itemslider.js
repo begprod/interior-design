@@ -30,6 +30,7 @@ export default class ItemSlider {
 	renderDots() {
 		for(let i = 0; i < this.numOfSlides; i++) {
 			const dot = document.createElement('button');
+			dot.innerText = i;
 			dot.classList.add('slider-dot');
 			dot.id = i;
 			this.dotsContainer.appendChild(dot);
@@ -39,10 +40,14 @@ export default class ItemSlider {
 	dotsCtrl() {
 		const self = this;
 
+		this.dotsContainer.children[this.currentSlide].classList.add('active');
+
 		this.dotsContainer.addEventListener('click', function(event) {
 			if(event.target.classList.contains('slider-dot')) {
+				this.children[self.currentSlide].classList.remove('active');
 				self.slide[self.currentSlide].classList.remove('active');
 				self.currentSlide = event.target.id;
+				this.children[self.currentSlide].classList.add('active');
 				self.slide[self.currentSlide].classList.add('active');
 			}
 		});
