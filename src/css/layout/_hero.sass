@@ -28,6 +28,7 @@
 	&__slider
 		border: 3px solid violet
 	&__footer
+		position: relative
 		display: flex
 		flex-direction: row
 		flex-wrap: nowrap
@@ -35,6 +36,7 @@
 		align-items: center
 		min-height: 90px
 		border: 3px solid lawngreen
+		z-index: 5
 
 .hero-slider
 	overflow: hidden
@@ -48,6 +50,9 @@
 		color: white
 		&.active
 			display: block
+			animation: fadeIn .5s ease-in-out
+			.hero-slider__text-holder
+				animation: fadeIn 2s ease-in-out
 	&__img
 		position: absolute
 		display: block
