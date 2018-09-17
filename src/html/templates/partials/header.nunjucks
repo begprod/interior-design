@@ -1,11 +1,17 @@
 <header class="header">
 	<div class="wrapper header__inner">
-		<div class="header__logo">
-			<span class="icon icon-logo-white"></span>
+		<div class="header__cell header__cell_menu">
+			<button class="header__menu-trigger" type="button">
+				<span>Menu</span>
+			</button>
 		</div>
-		<div class="header__menu-trigger">
-			<span class="icon icon-menu"></span>
+		<div class="header__cell header__cell_logo">
+			<a class="header__logo" href="/">
+				<span class="visuallyhidden">BR</span>
+			</a>
 		</div>
-		<div class="header__phone">3</div>
+		<div class="header__cell header__cell_phone">
+			+7 (800) 823 48 88
+		</div>
 	</div>
 </header>
