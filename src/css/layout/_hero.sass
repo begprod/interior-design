@@ -11,7 +11,6 @@
 		height: 770px
 	&::after
 		content: ""
-		//display: none
 		position: absolute
 		top: 0
 		left: 0
@@ -29,7 +28,7 @@
 		border: 3px solid violet
 	&__footer
 		position: relative
-		display: flex
+		display: none
 		flex-direction: row
 		flex-wrap: nowrap
 		justify-content: space-between
@@ -37,6 +36,8 @@
 		min-height: 90px
 		border: 3px solid lawngreen
 		z-index: 5
+		@media screen and (min-width: $desktop)
+			display: flex
 
 .hero-slider
 	overflow: hidden
@@ -67,23 +68,38 @@
 		flex-direction: column
 		justify-content: center
 		height: 100%
-		padding: 0 100px
 		border: 3px solid azure
 		z-index: 5
 		@media screen and (min-width: $mobile)
 			width: 100%
+			text-align: center
 		@media screen and (min-width: $desktop)
 			width: 50%
+			padding: 0 100px
+			text-align: left
 	&__head
 		margin: 0 0 30px 0
-		font-size: 60px
-		line-height: 60px
 		font-family: $playFairBold
+		@media screen and (min-width: $mobile)
+			font-size: 40px
+			line-height: 48px
+		@media screen and (min-width: $tablet)
+			font-size: 100px
+			line-height: 100px
+		@media screen and (min-width: $desktop)
+			font-size: 60px
+			line-height: 60px
 	&__descr
 		margin: 0
-		font-size: 16px
-		line-height: 20px
 		font-family: $openSansLight
+		@media screen and (min-width: $mobile)
+			font-size: 18px
+		@media screen and (min-width: $tablet)
+			font-size: 26px
+			line-height: 32px
+		@media screen and (min-width: $desktop)
+			font-size: 16px
+			line-height: 20px
 	&__dots
 		.slider-dot
 			font-size: 0

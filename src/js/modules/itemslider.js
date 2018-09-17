@@ -9,11 +9,12 @@ export default class ItemSlider {
 		this.slide = document.getElementsByClassName(this.sliderItemClass);
 		this.dotsContainer = document.querySelector(this.dotsContainerClass);
 		this.numOfSlides = this.culcNumOfSlides();
-		this.currentSlide = 0;
+		this.currentSlideId = 0;
 		this.renderDots();
-		this.dotsCtrl();
+		this.dotsCtrl(this.currentSlideId);
 
-		this.slide[this.currentSlide].classList.add('active');
+		this.slide[this.currentSlideId].classList.add('active');
+		this.dotsContainer.children[this.currentSlideId].classList.add('active');
 	}
 
 	culcNumOfSlides() {
@@ -37,18 +38,16 @@ export default class ItemSlider {
 		}
 	}
 
-	dotsCtrl() {
+	dotsCtrl(index) {
 		const self = this;
-
-		this.dotsContainer.children[this.currentSlide].classList.add('active');
 
 		this.dotsContainer.addEventListener('click', function(event) {
 			if(event.target.classList.contains('slider-dot')) {
-				this.children[self.currentSlide].classList.remove('active');
-				self.slide[self.currentSlide].classList.remove('active');
-				self.currentSlide = event.target.id;
-				this.children[self.currentSlide].classList.add('active');
-				self.slide[self.currentSlide].classList.add('active');
+				this.children[index].classList.remove('active');
+				self.slide[index].classList.remove('active');
+				index = event.target.id;
+				this.children[index].classList.add('active');
+				self.slide[index].classList.add('active');
 			}
 		});
 	}

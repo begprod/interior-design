@@ -4,14 +4,21 @@
 			<div class="hero-slider__item js-items-slider-item">
 				<img class="hero-slider__img" src="./media/images/hero-slider/1.jpg" alt="Дизайн интерьеров">
 				<div class="hero-slider__text-holder">
-					<h1 class="hero-slider__head">Дизайн интерьеров</h1>
+					<h2 class="hero-slider__head">Дизайн интерьеров</h2>
 					<p class="hero-slider__descr">Воплотим в жизнь интерьер, который будет радовать лаконичностью и уютом.</p>
 				</div>
 			</div>
 			<div class="hero-slider__item js-items-slider-item">
 				<img class="hero-slider__img" src="./media/images/hero-slider/2.jpg" alt="Дизайн интерьеров">
 				<div class="hero-slider__text-holder">
-					<h1 class="hero-slider__head">Интерьеров дизайн</h1>
+					<h2 class="hero-slider__head">Интерьеров дизайн</h2>
+					<p class="hero-slider__descr">Не воплотим в жизнь интерьер, который будет радовать лаконичностью и уютом.</p>
+				</div>
+			</div>
+			<div class="hero-slider__item js-items-slider-item">
+				<img class="hero-slider__img" src="./media/images/hero-slider/2.jpg" alt="Дизайн интерьеров">
+				<div class="hero-slider__text-holder">
+					<h2 class="hero-slider__head">ДДДизайн</h2>
 					<p class="hero-slider__descr">Не воплотим в жизнь интерьер, который будет радовать лаконичностью и уютом.</p>
 				</div>
 			</div>
