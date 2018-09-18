@@ -24,12 +24,18 @@
 			</div>
 		</div>
 		<div class="hero__footer">
-			<div>
-				social
+			<div class="social-icons social-icons_transparency">
+				<a class="social-icons__item" href="/" target="_blank">
+					<span class="icon icon-vk">VK</span>
+				</a>
+				<a class="social-icons__item" href="/" target="_blank">
+					<span class="icon icon-insta">Instagram</span>
+				</a>
+				<a class="social-icons__item" href="/" target="_blank">
+					<span class="icon icon-facebook">Facebook</span>
+				</a>
 			</div>
-			<div class="hero-slider__dots js-items-slider-dots">
-
-			</div>
+			<div class="hero-slider__dots js-items-slider-dots"></div>
 		</div>
 	</div>
 </section>
