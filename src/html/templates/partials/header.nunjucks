@@ -7,11 +7,14 @@
 		</div>
 		<div class="header__cell header__cell_logo">
 			<a class="header__logo" href="/">
-				<span class="visuallyhidden">BR</span>
+				<span class="visuallyhidden">BRUME</span>
 			</a>
 		</div>
 		<div class="header__cell header__cell_phone">
-			+7 (800) 823 48 88
+			<a class="header__phone" href="tel:78008234888">
+				<span class="icon icon-phone"></span>
+				+7 (800) 823 48 88
+			</a>
 		</div>
 	</div>
 </header>

@@ -57,6 +57,7 @@
 		padding: 0
 		background: none
 		border: none
+		cursor: pointer
 		@media screen and (min-width: $tablet)
 			width: 66px
 			height: 46px
@@ -97,3 +98,15 @@
 				height: 5px
 			@media screen and (min-width: $desktop)
 				height: 2px
+	&__phone
+		display: flex
+		flex-direction: row
+		flex-wrap: nowrap
+		justify-content: flex-end
+		align-items: center
+		text-decoration: none
+		font-family: $openSansRegular
+		font-size: 14px
+		color: $gray
+		.icon
+			margin-right: 15px
