@@ -1,0 +1,32 @@
+.btn
+	display: inline-flex
+	justify-content: center
+	align-items: center
+	width: 215px
+	height: 55px
+	font-family: $openSansExtraBold
+	font-size: 16px
+	text-transform: uppercase
+	text-decoration: none
+	color: $darkBlue
+	border: 2px solid $darkBlue
+	background-color: transparent
+	cursor: pointer
+	transition: .3s ease-in-out
+	transition-property: background-color, border-color
+	&_white
+		color: white
+		border-color: white
+	&_arrow
+		.icon
+			display: none
+			transition: .3s ease-in-out
+			transition-property: transform
+			@media screen and (min-width: $desktop)
+				display: inline-block
+		&:hover
+			.icon
+				transform: translateX(10px)
+	&:hover
+		background-color: $yellow
+		border-color: $yellow

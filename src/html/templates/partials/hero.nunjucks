@@ -6,6 +6,10 @@
 				<div class="hero-slider__text-holder">
 					<h2 class="hero-slider__head">Дизайн интерьеров</h2>
 					<p class="hero-slider__descr">Воплотим в жизнь интерьер, который будет радовать лаконичностью и уютом.</p>
+					<a class="btn btn_white btn_arrow hero-slider__btn" href="/">
+						Заказать дизайн
+						<span class="icon icon-longarrow-right" aria-hidden></span>
+					</a>
 				</div>
 			</div>
 			<div class="hero-slider__item js-items-slider-item">
@@ -13,6 +17,10 @@
 				<div class="hero-slider__text-holder">
 					<h2 class="hero-slider__head">Интерьеров дизайн</h2>
 					<p class="hero-slider__descr">Не воплотим в жизнь интерьер, который будет радовать лаконичностью и уютом.</p>
+					<a class="btn btn_white btn_arrow hero-slider__btn" href="/">
+						Заказать дизайн
+						<span class="icon icon-longarrow-right" aria-hidden></span>
+					</a>
 				</div>
 			</div>
 			<div class="hero-slider__item js-items-slider-item">
@@ -20,19 +28,23 @@
 				<div class="hero-slider__text-holder">
 					<h2 class="hero-slider__head">ДДДизайн</h2>
 					<p class="hero-slider__descr">Не воплотим в жизнь интерьер, который будет радовать лаконичностью и уютом.</p>
+					<button class="btn btn_white btn_arrow hero-slider__btn">
+						Заказать дизайн
+						<span class="icon icon-longarrow-right" aria-hidden></span>
+					</button>
 				</div>
 			</div>
 		</div>
 		<div class="hero__footer">
 			<div class="social-icons social-icons_transparency">
-				<a class="social-icons__item" href="/" target="_blank">
-					<span class="icon icon-vk">VK</span>
+				<a class="social-icons__item" href="/" target="_blank" title="VK">
+					<span class="icon icon-vk" aria-hidden>VK</span>
 				</a>
-				<a class="social-icons__item" href="/" target="_blank">
-					<span class="icon icon-insta">Instagram</span>
+				<a class="social-icons__item" href="/" target="_blank" title="Instagram">
+					<span class="icon icon-insta" aria-hidden>Instagram</span>
 				</a>
-				<a class="social-icons__item" href="/" target="_blank">
-					<span class="icon icon-facebook">Facebook</span>
+				<a class="social-icons__item" href="/" target="_blank" title="Facebook">
+					<span class="icon icon-facebook" aria-hidden>Facebook</span>
 				</a>
 			</div>
 			<div class="hero-slider__dots js-items-slider-dots"></div>
