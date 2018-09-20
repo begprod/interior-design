@@ -1,0 +1,45 @@
+.about-list
+	margin: 0
+	padding: 0
+	list-style: none
+	counter-reset: about-counter
+	@media screen and (min-width: $tablet)
+		display: flex
+		flex-direction: row
+		flex-wrap: wrap
+		justify-content: space-between
+	&__item
+		margin: 0 0 35px 0
+		counter-increment: about-counter
+		@media screen and (min-width: $tablet)
+			width: 45%
+			&:nth-child(2n)
+				margin-top: 150px
+		@media screen and (min-width: $desktop)
+			width: 22%
+			&:nth-child(2n)
+				margin-top: 200px
+		&::before
+			content: counter(about-counter, decimal-leading-zero) " "
+			display: block
+			margin: 0 0 25px 0
+			font-family: $playFairBold
+			font-size: 85px
+			line-height: 1
+			color: $yellow
+			opacity: .3
+	&__head
+		margin: 0 0 25px 0
+		font-family: $openSansRegular
+		font-size: 24px
+		color: $darkBlue
+		@media screen and (min-width: $desktop)
+			font-size: 22px
+	&__descr
+		margin: 0
+		font-family: $openSansLight
+		font-size: 18px
+		color: $lightBrown
+		opacity: .5
+		@media screen and (min-width: $desktop)
+			font-size: 16px

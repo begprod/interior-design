@@ -1,0 +1,22 @@
+<section class="section about">
+	<div class="wrapper section__inner">
+		<ol class="about-list">
+			<li class="about-list__item">
+				<h3 class="about-list__head">Берем весь ремонт на себя</h3>
+				<p class="about-list__descr">Заботы по дизайну и отделке помещения возьмем на себя, останется дождаться завершения работ и наслаждаться результатом</p>
+			</li>
+			<li class="about-list__item">
+				<h3 class="about-list__head">Мы - профессионалы своего дела</h3>
+				<p class="about-list__descr">Наши дизайнеры постоянно повышают квалификацию, посещеют курсы и тренинги а студия уже реализовала свыше 1000 дизайн-проектов</p>
+			</li>
+			<li class="about-list__item">
+				<h3 class="about-list__head">Наши проекты индивидуальны</h3>
+				<p class="about-list__descr">Каждый, созданный студией, интерьер - индивидуальное         и максимально продуманное решение для каждого вида помещения</p>
+			</li>
+			<li class="about-list__item">
+				<h3 class="about-list__head">Рабатаем на выгодных условиях</h3>
+				<p class="about-list__descr">Ценовая политика студии очень лояльна,  мы осуществляем контроль всего процесса работы  и получаем результат который делает клиентов счастивыми</p>
+			</li>
+		</ol>
+	</div>
+</section>
