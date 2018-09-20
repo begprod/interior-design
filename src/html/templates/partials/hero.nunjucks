@@ -49,6 +49,9 @@
 			</div>
 			<div class="hero-slider__dots js-items-slider-dots"></div>
 		</div>
+		<button class="hero__down-btn hidden-desktop" type="button">
+			<span class="icon icon-longarrow-right" aria-hidden></span>
+		</button>
 	</div>
 </section>
 <div style="height: 1500px"></div>
