@@ -13,8 +13,8 @@ export default class ItemSlider {
 		this.renderDots();
 		this.dotsCtrl(this.currentSlideId);
 
-		this.slide[this.currentSlideId].classList.add('active');
-		this.dotsContainer.children[this.currentSlideId].classList.add('active');
+		this.slide[this.currentSlideId].classList.add('is-active');
+		this.dotsContainer.children[this.currentSlideId].classList.add('is-active');
 	}
 
 	culcNumOfSlides() {
@@ -43,11 +43,11 @@ export default class ItemSlider {
 
 		this.dotsContainer.addEventListener('click', function(event) {
 			if(event.target.classList.contains('slider-dot')) {
-				this.children[index].classList.remove('active');
-				self.slide[index].classList.remove('active');
+				this.children[index].classList.remove('is-active');
+				self.slide[index].classList.remove('is-active');
 				index = event.target.id;
-				this.children[index].classList.add('active');
-				self.slide[index].classList.add('active');
+				this.children[index].classList.add('is-active');
+				self.slide[index].classList.add('is-active');
 			}
 		});
 	}

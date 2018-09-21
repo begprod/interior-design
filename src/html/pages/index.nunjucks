@@ -9,4 +9,5 @@
 	{% include "partials/header.nunjucks" %}
 	{% include "partials/hero.nunjucks" %}
 	{% include "partials/about.nunjucks" %}
+	{% include "partials/services.nunjucks" %}
 {% endblock %}
