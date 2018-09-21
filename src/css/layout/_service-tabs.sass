@@ -1,0 +1,16 @@
+.services-tabs
+	@media screen and (min-width: $desktop)
+		display: flex
+		flex-direction: row
+		flex-wrap: nowrap
+		justify-content: flex-start
+		align-items: flex-start
+	&__nav
+		margin: 0 0 55px 0
+		outline: 3px dashed fuchsia
+		@media screen and (min-width: $desktop)
+			width: 210px
+			margin: 0 60px 0 0
+	&__content
+		flex-grow: 1
+		outline: 3px solid navy
