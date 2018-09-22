@@ -5,12 +5,41 @@
 		flex-wrap: nowrap
 		justify-content: flex-start
 		align-items: flex-start
-	&__nav
+	&__side
 		margin: 0 0 55px 0
-		outline: 3px dashed fuchsia
 		@media screen and (min-width: $desktop)
 			width: 210px
 			margin: 0 60px 0 0
 	&__content
 		flex-grow: 1
 		outline: 3px solid navy
+
+.services-tabs-nav
+	&__list
+		margin: 0
+		padding: 0
+		list-style: none
+		@media screen and (min-width: $tablet)
+			display: flex
+			flex-direction: row
+			flex-wrap: wrap
+			justify-content: space-between
+			align-items: flex-start
+	&__item
+		margin: 0 0 35px 0
+		@media screen and (min-width: $tablet)
+			width: 50%
+		@media screen and (min-width: $desktop)
+			width: 100%
+	&__link
+		display: inline-block
+		text-decoration: none
+		font-family: $openSansLight
+		font-size: 22px
+		color: $lightBrown
+		@media screen and (min-width: $desktop)
+			font-size: 18px
+		&.is-active
+			color: black
+			@media screen and (min-width: $desktop)
+				transform: translateX(25px)
