@@ -2,7 +2,7 @@
 	<div class="wrapper section__inner">
 		<h2 class="section__head">Наши услуги</h2>
 		<div class="services-tabs">
-			<div class="services-tabs__side">
+			<aside class="services-tabs__side">
 				<nav class="services-tabs-nav">
 					<ul class="services-tabs-nav__list">
 						<li class="services-tabs-nav__item">
@@ -25,8 +25,22 @@
 						</li>
 					</ul>
 				</nav>
+			</aside>
+			<div class="services-tabs__content">
+				<article class="services-tabs-content-item is-active">
+					<div class="services-tabs-content-item__img">
+						<img src="./media/images/image1.jpg" alt="Дизайн коммерческих объектов">
+					</div>
+					<div class="services-tabs-content-item__info">
+						<h3 class="services-tabs-content-item__head">Дизайн коммерческих объектов</h3>
+						<p class="services-tabs-content-item__descr">Работая с коммерческими объектами, студия изучает целевую аудиторию, создаем коммерческие интерьеры такими, чтобы посетители кафе, бара, гостиницы хотели возвращаться в интерьер снова и снова</p>
+						<div class="services-tabs-content-item__nums">532 проекта</div>
+						<div class="services-tabs-content-item__btn">
+							<button class="btn" type="button">Консультация</button>
+						</div>
+					</div>
+				</article>
 			</div>
-			<div class="services-tabs__content">content</div>
 		</div>
 	</div>
 </section>
