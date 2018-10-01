@@ -1,0 +1,8 @@
+<section class="video">
+	<button class="video__trigger" type="button" style="background-image: url('./media/images/image2.jpg')">
+		<div class="video__icon">
+			<span class="icon icon-triangle-play"></span>
+		</div>
+		<h3 class="video__head">О  студии дизайна интерьеров BRUME за 2 минуты</h3>
+	</button>
+</section>

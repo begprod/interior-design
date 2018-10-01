@@ -1,0 +1,47 @@
+.video
+	height: 620px
+	color: white
+	@media screen and (min-width: $tablet)
+		height: 820px
+	@media screen and (min-width: $desktop)
+		height: 600px
+	&__trigger
+		display: flex
+		flex-direction: column
+		flex-wrap: nowrap
+		justify-content: center
+		align-items: center
+		width: 100%
+		height: 100%
+		background-size: cover
+		background-position: center
+		background-repeat: no-repeat
+		background-color: transparent
+		cursor: pointer
+	&__icon
+		display: inline-flex
+		flex-direction: row
+		flex-wrap: nowrap
+		justify-content: center
+		align-items: center
+		width: 90px
+		height: 90px
+		border-radius: 100%
+		background-color: $yellow
+		cursor: pointer
+		@media screen and (min-width: $tablet)
+			width: 120px
+			height: 120px
+		@media screen and (min-width: $desktop)
+			width: 80px
+			height: 80px
+	&__head
+		font-family: $openSansLight
+		font-size: 22px
+		line-height: 30px
+		color: white
+		@media screen and (min-width: $tablet)
+			max-width: 80%
+		@media screen and (min-width: $desktop)
+			max-width: 100%
+			font-size: 18px
