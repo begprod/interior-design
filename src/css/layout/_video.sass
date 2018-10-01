@@ -1,11 +1,27 @@
 .video
+	display: flex
+	flex-direction: row
+	flex-wrap: nowrap
+	justify-content: center
+	align-items: center
+	position: relative
 	height: 620px
 	color: white
 	@media screen and (min-width: $tablet)
 		height: 820px
 	@media screen and (min-width: $desktop)
 		height: 600px
+	&__frame
+		width: 95%
+		height: 95%
+		margin: 0 auto
+		box-shadow: 0 0 20px 0 black
 	&__trigger
+		position: absolute
+		top: 0
+		left: 0
+		right: 0
+		bottom: 0
 		display: flex
 		flex-direction: column
 		flex-wrap: nowrap
@@ -18,6 +34,9 @@
 		background-repeat: no-repeat
 		background-color: transparent
 		cursor: pointer
+		z-index: 5
+		&.is-hide
+			display: none
 	&__icon
 		display: inline-flex
 		flex-direction: row
