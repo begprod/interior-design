@@ -1,0 +1,31 @@
+<section class="section">
+	<div class="section__inner wrapper">
+		<h2 class="section__head">Этапы работы</h2>
+		<ol class="stage-cards">
+			<li class="stage-card stage-cards__card">
+				<h4 class="stage-card__head">Консультация</h4>
+				<p class="stage-card__descr">Обсуждаем задачи и пожелания, предлагаем варианты дизайна интерьера, оговариваем сроки реализации.</p>
+			</li>
+			<li class="stage-card stage-cards__card">
+				<h4 class="stage-card__head">Техническое задание</h4>
+				<p class="stage-card__descr">Составляем техническое задание. Заключаем договор, в котором прописываем все этапы проекта.</p>
+			</li>
+			<li class="stage-card stage-cards__card">
+				<h4 class="stage-card__head">Замеры и планировка</h4>
+				<p class="stage-card__descr">Фиксируем размеры стен, окон, плинтусов, дверных проемов  для эффективной работы.</p>
+			</li>
+			<li class="stage-card stage-cards__card">
+				<h4 class="stage-card__head">Дизайн-концепция</h4>
+				<p class="stage-card__descr">Создаем концепцию на основе пожеланий клиента, его образов и ощущений.  подбираем мебель.</p>
+			</li>
+			<li class="stage-card stage-cards__card">
+				<h4 class="stage-card__head">3D Визуализация</h4>
+				<p class="stage-card__descr">Создаем 3d визуализацию, собираем пакет чертежей соответствующий строительным нормам.</p>
+			</li>
+			<li class="stage-card stage-cards__card">
+				<h4 class="stage-card__head">Комплектация интерьера</h4>
+				<p class="stage-card__descr">Подбираем мебель, отделочные материалы, светильники и текстиль. Декорируем интерьер.</p>
+			</li>
+		</ol>
+	</div>
+</section>

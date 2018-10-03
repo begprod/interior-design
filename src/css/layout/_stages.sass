@@ -1,0 +1,85 @@
+.stage-cards
+	padding: 0
+	list-style: none
+	counter-reset: stage-card-counter
+	@media screen and (min-width: $tablet)
+		display: flex
+		flex-direction: row
+		flex-wrap: wrap
+		justify-content: flex-start
+		align-items: flex-start
+	&__card
+		margin: 0 0 60px 0
+		//outline: 3px dashed deepskyblue
+		@media screen and (min-width: $tablet)
+			flex-grow: 1
+			width: 40%
+			margin-right: 10%
+			&:nth-child(2n)
+				margin-right: 0
+		@media screen and (min-width: $desktop)
+			flex-grow: 0
+			width: 30%
+			margin-right: 3.3333%
+			&:nth-child(2n)
+				margin-right: 3.3333%
+			&:nth-child(3n)
+				margin-right: 0
+
+.stage-card
+	position: relative
+	counter-increment: stage-card-counter
+	@media screen and (min-width: $tablet)
+		padding-left: 80px
+	&::after
+		content: ""
+		display: none
+		@media screen and (min-width: $tablet)
+			display: block
+			position: absolute
+			top: -13px
+			left: -13px
+			width: 50px
+			height: 50px
+			border-radius: 100%
+			border: 1px solid $lightYellow
+	&::before
+		content: counter(stage-card-counter)
+		display: none
+		@media screen and (min-width: $tablet)
+			display: block
+			position: absolute
+			top: 0
+			left: 0
+			width: 25px
+			height: 25px
+			font-size: 12px
+			line-height: 25px
+			text-align: center
+			border-radius: 100%
+			background-color: $lightYellow
+			font-family: $openSansRegular
+	&__head
+		position: relative
+		margin: 0 0 25px 0
+		padding: 0 0 25px 0
+		font-family: $openSansSemiBold
+		font-size: 24px
+		line-height: 24px
+		@media screen and (min-width: $desktop)
+			font-size: 22px
+		&::after
+			content: ""
+			position: absolute
+			left: 0
+			bottom: 0
+			width: 50px
+			height: 1px
+			background-color: black
+	&__descr
+		margin: 0
+		font-family: $openSansLight
+		font-size: 18px
+		line-height: 25px
+		@media screen and (min-width: $desktop)
+			font-size: 16px

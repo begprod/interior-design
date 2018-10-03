@@ -11,4 +11,5 @@
 	{% include "partials/about.nunjucks" %}
 	{% include "partials/services.nunjucks" %}
 	{% include "partials/video.nunjucks" %}
+	{% include "partials/stages.nunjucks" %}
 {% endblock %}
